@@ -55,4 +55,8 @@ test("form shows success message on submit with form details", () => {
     expect(newCity).toBeInTheDocument();
     expect(newState).toBeInTheDocument();
     expect(newZip).toBeInTheDocument();
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 39ff171e562c4d8f8dbfca6ebdf66e53340842ab
