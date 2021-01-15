@@ -6,7 +6,7 @@ import CheckoutForm from "./CheckoutForm";
 
 // Write up the two tests here and make sure they are testing what the title shows
 
-test("form header renders", () => {
+test("form header renders. ", () => {
     render(<CheckoutForm/>) //Arrange
 
     //Act 
@@ -55,8 +55,5 @@ test("form shows success message on submit with form details", () => {
     expect(newCity).toBeInTheDocument();
     expect(newState).toBeInTheDocument();
     expect(newZip).toBeInTheDocument();
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 39ff171e562c4d8f8dbfca6ebdf66e53340842ab
+
